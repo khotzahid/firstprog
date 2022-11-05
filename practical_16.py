@@ -121,7 +121,7 @@ print(st1.name,st1.age)'''
 #pragram to use distructor
 class St:
     def __init__(self,n):
-        print("Hel",n)
+        print("Hello",n)
     def __del__(self):
         print("Deleted")
 v=St("sonali")
